@@ -1,0 +1,28 @@
+.table {
+  background-color: #a39fa4;
+  border-radius: 8px;
+  overflow: hidden;
+
+  .root {
+    color: #fff;
+
+    .columnHeaders {
+      background-color: #464646;
+    }
+
+    .row {
+      &:nth-of-type(2n) {
+        background-color: #858186;
+
+        &:hover {
+          background-color: #787479;
+        }
+      }
+    }
+
+    .footerContainer {
+      border: none;
+      color: #fff;
+    }
+  }
+}
